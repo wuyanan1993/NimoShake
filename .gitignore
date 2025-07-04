@@ -28,3 +28,8 @@ diagnostic/
 src/vendor/*
 !src/vendor/vendor.json
 test_checkpoint_db
+
+pkg/
+nimo-full-check/bin/
+nimo-shake/bin/
+scripts/hypervisor

@@ -1,3 +1,20 @@
+2025-07-04
+	* VERSION: 1.0.14
+    * IMPROVE: adapt shard split scene
+    * REFINE: upgrade to go1.15.10 with mod to compile
+    * REFINE: close writer when all writes are done
+    * REFINE: delete useless bin files in project
+    * IMPROVE: update shard status to finish when all incr data have written to dest DB
+    * IMPROVE: wait for father shard in executor because of we are caching incremental data
+    * REFINE: modify Node channel size, no need for large chan anymore when don't use memory cache
+    * IMPROVE: incr cache file persist to db
+    * IMPROVE: add parameter 'increase.persist.dir'
+    * REFINE: deprecate mgo, replace it with mongo-driver
+    * IMPROVE: add api qos
+    * BUGFIX: fix index ele type parse
+    * IMPROVE: support MongoDB 6.0+
+    * IMPROVE: support DynamoDB filter_expression
+
 2021-12-07
 	* VERSION: 1.0.13
 	* IMPROVE: deprecated mongo.go.driver
